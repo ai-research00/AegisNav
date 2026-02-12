@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AegisNav" parent="android:Theme.Material.NoActionBar">
+        <!-- Primary colors -->
+        <item name="android:colorBackground">@color/bg_dark</item>
+        <item name="android:colorForeground">@color/text_primary</item>
+        
+        <!-- Window colors -->
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/black_primary</item>
+        <item name="android:navigationBarColor">@color/black_primary</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorTertiary">@color/text_tertiary</item>
+        <item name="android:textColorHint">@color/text_disabled</item>
+    </style>
+</resources>
